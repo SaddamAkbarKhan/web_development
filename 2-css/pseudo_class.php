@@ -19,6 +19,14 @@
             font-size: 50px;
             
         }
+
+        .btn:active {
+            background-color: blue;
+            width: 100vw;
+            height: 100vh;
+            color: white;
+            font-size: 50px;
+        }
         
         input:focus {
             border: 5px solid red;
@@ -26,9 +34,15 @@
             font-size: 300px;
         }
 
+        
+
         p:first-child {
             color: blue;
             background-color: red;
+        }
+        P:last-child {
+            color: red;
+            background-color: blue;
         }
     </style>
 </head>
@@ -44,6 +58,10 @@
         <p>Lorem ipsum dolor sit amet consectetur 
             adipisicing elit. Similique ad optio at cum quod
             eligendi quasi cupiditate perferendis excepturi adipisci?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Similique ad optio at cum quod
+                eligendi quasi cupiditate perferendis excepturi adipisci?</p>
     </div>
 
 </body>

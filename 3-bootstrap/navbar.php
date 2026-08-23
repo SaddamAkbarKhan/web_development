@@ -8,7 +8,47 @@
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
 </head>
 
+
+
+
 <body>
+
+<nav class="navbar navbar-expand-lg bg-danger ">
+  <div class="container-fluid">
+    <a href="" class="navbar-brand">Navbar logo</a>
+
+    <button type="button" class="navbar-toggler" 
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarId">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarId">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      
+      <li class="nav-item">
+        <a href="" class="nav-link active" aria-current="page">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="" class="nav-link " >About</a>
+      </li>
+      <li class="nav-item">
+        <a href="" class="nav-link active" >Conatct</a>
+      </li>
+    </ul>
+  </div>
+
+
+  </div>
+</nav>
+
+
+
+
+
+
+
+<!-- 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -44,7 +84,7 @@
       </form>
     </div>
   </div>
-</nav>
+</nav> -->
 
 
 
